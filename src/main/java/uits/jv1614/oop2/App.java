@@ -1,11 +1,8 @@
 package uits.jv1614.oop2;
 
-
 public class App {
     public static void main(String[] args){
-      
-  //  int [] interval = {38 , 45};
-    Bouquet bouquet1 = new Bouquet("Свадебный", new C("Пион", 50, 3, 15), new C("Роза", 50, 2, 4));
+    Bouquet bouquet1 = new Bouquet("Свадебный", new C("Пион", 49, 3, 15), new C("Роза", 50, 2, 4), new C("Роза", 50, 1, 2));
 	System.out.println( bouquet1);
 	System.out.println();
 	System.out.println();
@@ -19,7 +16,6 @@ public class App {
 	System.out.println( bouquet3);
 	System.out.println();
 	System.out.println();
-
     }
 }
     

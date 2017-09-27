@@ -1,7 +1,9 @@
 package uits.jv1614.oop2;
 
+import java.util.ArrayList;
 
-public abstract class Flowers {
+
+public abstract class Flowers  {
     private String name;
     private int aLength;
     private int Value;
@@ -49,7 +51,7 @@ public Flowers(String name, int aLength, int HowManyStood, int number) {
         return aLength;
     }
         
-    String getName() {
+    String getname() {
         return name;
     }
     
@@ -59,6 +61,8 @@ public Flowers(String name, int aLength, int HowManyStood, int number) {
     int getnumber(){
         return number;
     }
+    
+    
 }
      
   
